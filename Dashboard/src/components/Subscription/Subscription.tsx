@@ -6,7 +6,7 @@ import SubscriptionCard from "./SubscriptionCard/SubscriptionCard";
 const Subscription = () => {
   const [isAnnualSubscription, setIsAnnualSubscription] = useState(false);
   return (
-    <section className="pt-[4.75rem] pb-9">
+    <section className="pt-[4.75rem] pb-9 bg-sub-bg bg-no-repeat bg-contain">
       <div className="flex flex-col gap-6 justify-start items-center max-w-[455px] mx-auto">
         <h3 className="text-[2rem] font-bold">Choose your plan</h3>
         <p className="text-sm font-normal text-center">

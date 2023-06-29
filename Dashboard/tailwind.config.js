@@ -20,6 +20,7 @@ export default {
         "hero-bg": "url('/images/HeroBg.svg')",
         "mic-bg": "url('/images/MicBg.png')",
         "footer-bg": "url('/images/FooterBg.svg')",
+        "sub-bg": "url('/images/SubBg.png')",
       },
       maxWidth: {
         custom: "68.12rem",
@@ -27,6 +28,15 @@ export default {
       backgroundPosition: {
         "right-center": "right bottom 20rem",
         "footer-bottom": "top 5rem",
+      },
+      boxShadow: {
+        "review-shadow": "0px 16px 40px 0px rgba(154, 148, 148, 0.25)",
+      },
+      borderColor: {
+        "review-border": "rgba(225, 166, 255, 0.40)",
+      },
+      backgroundColor: {
+        "arrow-btn": "rgba(225, 166, 255, 0.40)",
       },
     },
   },
