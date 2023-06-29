@@ -1,8 +1,9 @@
+import Button from "../Button/Button";
 import Footer from "../Footer/Footer";
 
 const Ending = () => {
   return (
-    <section>
+    <section className="bg-footer-bg bg-no-repeat bg-footer-bottom bg-cover">
       <div className="max-w-custom mx-auto flex flex-col gap-16 pt-[4.25rem] pb-24 justify-center items-center">
         <div>
           <h3 className="text-center font-inter font-bold text-[2rem]">
@@ -16,9 +17,7 @@ const Ending = () => {
             a
           </p>
         </div>
-        <button className="bg-custom-linear rounded-ten py-[0.94rem] px-9 text-white text-xl font-bold font-poppins">
-          Get Started Now
-        </button>
+        <Button>Get Started Now</Button>
       </div>
       <Footer />
     </section>

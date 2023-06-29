@@ -17,9 +17,16 @@ export default {
       },
       backgroundImage: {
         "custom-linear": " linear-gradient(90deg, #4776E6 0%, #8E54E9 100%)",
+        "hero-bg": "url('/images/HeroBg.svg')",
+        "mic-bg": "url('/images/MicBg.png')",
+        "footer-bg": "url('/images/FooterBg.svg')",
       },
       maxWidth: {
         custom: "68.12rem",
+      },
+      backgroundPosition: {
+        "right-center": "right bottom 20rem",
+        "footer-bottom": "top 5rem",
       },
     },
   },

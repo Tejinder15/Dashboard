@@ -26,3 +26,13 @@ export interface INavlinks {
   header: IHeaderFooter[];
   footer: IFooter;
 }
+
+export interface IButton extends React.HTMLProps<HTMLButtonElement> {}
+
+export interface IReview {
+  name: string;
+  company: string;
+  review: string;
+  profile: string;
+  rating: number;
+}

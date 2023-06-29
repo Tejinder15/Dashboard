@@ -7,36 +7,23 @@ import Features from "./components/Features/Features";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Ending from "./components/Ending/Ending";
+import CustomerReview from "./components/CustomerReview/CustomerReview";
+import Hero from "./components/Hero/Hero";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      {/* <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="bg-hero-bg bg-no-repeat">
+        <Header />
+        <div className="bg-mic-bg bg-no-repeat bg-right-center ">
+          <Hero />
+          <Features />
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p> */}
-      <Header />
-      <Features />
       <Subscription />
-      {/* <Footer /> */}
+      <CustomerReview />
       <Ending />
     </>
   );
